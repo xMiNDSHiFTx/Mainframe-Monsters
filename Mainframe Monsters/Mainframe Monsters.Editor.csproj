@@ -117,13 +117,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Mainframe Monsters.Plugins.csproj">
-      <Project>{47F1BD83-DD4E-548F-F12C-20F84262AE07}</Project>
-      <Name>Mainframe Monsters.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Mainframe Monsters.csproj">
       <Project>{3163A053-399E-BF21-9159-1893813D2430}</Project>
       <Name>Mainframe Monsters</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mainframe Monsters.Plugins.csproj">
+      <Project>{47F1BD83-DD4E-548F-F12C-20F84262AE07}</Project>
+      <Name>Mainframe Monsters.Plugins</Name>
     </ProjectReference>
     <ProjectReference Include="Mainframe Monsters.Editor.Plugins.csproj">
       <Project>{0445C9E8-5217-E4C5-BF5E-A291E2FA5F78}</Project>
@@ -145,7 +145,6 @@
     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\TerrainToolkit\com\heparo\terrain\toolkit\editor\TerrainToolkitEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -229,7 +228,6 @@
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\TerrainToolkit\com\heparo\terrain\toolkit\documentation\ReadMe2017.txt" />
     <None Include="Assets\laxer tree pkg\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
